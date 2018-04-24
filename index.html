@@ -8,6 +8,8 @@
 	<link rel="shortcut icon" type="image/png" href="img/vplogo.png"/>
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+
 </head>
 
 <body>
@@ -56,11 +58,11 @@
         </p>
       </div>
       <div class="about-nested Raleway-change">
-        <div id="Resume">
+        <div id="Resume" class="about-nested-child">
           <img src="img/resume.jpg" alt="" class="resume-icon">
           <h5><a href="Agenda.pdf">Resume</a></h5>
         </div>
-        <div id="Git">
+        <div id="Git"class="about-nested-child">
           <img src="img/git.png" alt="" class="git-icon">
           <h5><a href="https://github.com/vparuthi">GitHub</a></h5>
         </div>
@@ -82,46 +84,61 @@
     </div>
     <div class="xop-section">
       <ul class="xop-grid">
-        <li>
+        <li class="xop-grid-li">
           <div class="xop-box xop-img-1">
-            <a href="#">
             <div class="xop-info">
               <h3>Calculator</h3>
               <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
-            </div></a>
+              <button type="button" class="btn btn-light">Show More</button>
+            </div>
+            <div class="xop-info back">
+              <p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
+              <button type="button" class="btn btn-light">Show Less</button>
+            </div>
           </div>
         </li>
-        <li>
+        <li class="xop-grid-li">
           <div class="xop-box xop-img-2">
-            <a href="#">
             <div class="xop-info">
               <h3>Tic-Tac-Toe</h3>
               <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
-            </div></a>
+              <button type="button" class="btn btn-light">Show More</button>
+            </div>
+            <div class="xop-info back">
+              <p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
+              <button type="button" class="btn btn-light">Show More</button>
+            </div>
           </div>
         </li>
-        <li>
+        <li class="xop-grid-li">
           <div class="xop-box xop-img-3">
-            <a href="#">
             <div class="xop-info">
               <h3>Weather</h3>
               <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
-            </div></a>
+              <button type="button" class="btn btn-light">Show More</button>
+            </div>
+            <div class="xop-info back">
+              <p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
+              <button type="button" class="btn btn-light">Show More</button>
+            </div>
           </div>
         </li>
-        <li>
+        <li class="xop-grid-li">
           <div class="xop-box xop-img-4">
-            <a href="#">
             <div class="xop-info">
               <h3>Contacts</h3>
               <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
-            </div></a>
+              <button type="button" class="btn btn-light">Show More</button>
+            </div>
+            <div class="xop-info back">
+              <p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
+              <button type="button" class="btn btn-light">Show More</button>
+            </div>
           </div>
         </li>
       </ul>
     </div>
   </section>
-
 
   <section>
     <div class="wrapper" id="last-wrapper">
@@ -174,7 +191,7 @@
       </div>
     </div>
   </section>
-
+  <!-- <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script type="text/javascript" src="script.js"></script>

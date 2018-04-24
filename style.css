@@ -154,9 +154,14 @@ p {
   text-decoration: none;
 }
 .about-nested{
-  display: grid;
   grid-template-columns: 1;
   text-align: center;
+}
+.about-nested-child{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 15vh 0;
 }
 .about-nested h5{
   padding: 15px;
@@ -173,20 +178,22 @@ p {
 }
 .headings h1{
   font-family: 'simple', sans-serif;
-  font-size: 600%;
+  font-size: 10vh;
   z-index: 1;
 }
 .subheadings{
   line-height: 150px;
 }
 .git-icon{
-  height: 60px;
-  width: 60px;
+  height: 8vh;
+  width: 8vh;
+  margin: auto;
 }
 
 .resume-icon{
-  height: 77px;
-  width: 60px;
+  height: 9vh;
+  width: 7vh;
+  margin: auto;
 }
 .line{
   position: absolute;
@@ -208,8 +215,8 @@ p {
   line-height: 150px;
 }
 .contact-photo{
-  height: 100%;
-  width: 100%;
+  height: 35vw;
+  width: 25vw;
   left: 0;
 }
 #contact-me{
@@ -221,7 +228,6 @@ p {
   padding: 20px 20px 0 0px;
   margin-left: 15%;
   grid-template-columns: 35% 65%;
-  height:500px;
 }
 .information{
   position: relative;
@@ -236,20 +242,26 @@ p {
 .contact-nested{
   display: grid;
   margin: 0px 20px;
+  width: 50vw;
+}
+.contact-nested div p{
+  font-size: 1vw;
 }
 .contactdetails-nested{
   display: grid;
   grid-template-columns: 30% 40%;
   font-family: 'Raleway', sans-serif;
   grid-gap: 1em;
-  font-size: 125%;
+  font-size: 1vw;
   text-decoration: none;
   margin-top: 3em;
 }
 .xop-section{
   max-width: 1250px;
   margin: 0 0 0 15%;
-  padding: 2% 2%;
+  padding: 6% 2%;
+  position: relative;
+perspective: 800px;
 }
 .xop-grid{
   margin: 20px 0 0 0;
@@ -267,10 +279,11 @@ p {
   display: table;
 }
 .xop-grid li{
+  position: relative;
   width: 328px;
   height: 328px;
   display: inline-block;
-  margin: 20px
+  margin: 20px;
 }
 .xop-box{
   width: 100%;
@@ -280,7 +293,7 @@ p {
   border-radius: 10px;
   -webkit-transition: 0.3s ease-in-out,
   -webkit-transform 0.3s ease-in-out;
--moz-transition:  0.3s ease-in-out,
+  -moz-transition:  0.3s ease-in-out,
   -moz-transform 0.3s ease-in-out;
   transition: all 0.3s ease-in-out,
   transform 0.3s ease-in-out, ;
@@ -337,16 +350,26 @@ p {
 	font-size: 14px;
 	line-height: 2;
 }
+.back{
+  display: none;
+}
+.xop-info.back{
+  top: 25%;
+}
+
 @media screen and (max-width: 768px) { /*mobile view*/
   .content h1{
     font-size: 250%;
+  }
+  .about-nested-child{
+    margin: 15vh 0 0 0;
   }
   .getStartedButton{
     font-size: 110%;
     padding: 7px 15px;
   }
   p{
-    font-size: 100%;
+    font-size: 90%;
     line-height: 160%;
   }
   .wrapper{
