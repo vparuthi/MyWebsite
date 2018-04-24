@@ -209,10 +209,9 @@ p {
 .work-wrapper div{
   font-family: 'simple', sans-serif;
 }
-.work-subheadings{
-  font-size: 250%;
+.work-subheadings h1{
+  font-size: 300%;
   grid-column: 1/-1;
-  line-height: 150px;
 }
 .contact-photo{
   height: 35vw;
@@ -256,14 +255,14 @@ p {
   text-decoration: none;
   margin-top: 3em;
 }
-.xop-section{
+.gallery-section{
   max-width: 1250px;
   margin: 0 0 0 15%;
-  padding: 6% 2%;
+  padding: 0% 2% 6% 2%;
   position: relative;
 perspective: 800px;
 }
-.xop-grid{
+.gallery-grid{
   margin: 20px 0 0 0;
   padding: 0;
   list-style: none;
@@ -271,21 +270,21 @@ perspective: 800px;
   text-align: center;
   width: 100%;
 }
-.xop-grid:after{
+.gallery-grid:after{
   clear: both;
 }
-.xop-grid:after, .xop-box:before{
+.gallery-grid:after, .gallery-box:before{
   content: "";
   display: table;
 }
-.xop-grid li{
+.gallery-grid li{
   position: relative;
   width: 328px;
   height: 328px;
   display: inline-block;
   margin: 20px;
 }
-.xop-box{
+.gallery-box{
   width: 100%;
   height: 100%;
   position: relative;
@@ -298,40 +297,45 @@ perspective: 800px;
   transition: all 0.3s ease-in-out,
   transform 0.3s ease-in-out, ;
 }
-.xop-box:hover {
+.gallery-box:hover {
 	transform: scale(1.05);
 }
-.xop-img-1 {
+.gallery-img-1 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
 	url(img/calculator-app.jpg);
   background-size:cover;
 }
 
-.xop-img-2 {
+.gallery-img-2 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
 	url(img/tictactoe.jpeg);
   background-size:cover;
 }
 
-.xop-img-3 {
+.gallery-img-3 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
 	url(img/weather.jpg);
   background-size:cover;
 }
 
-.xop-img-4 {
+.gallery-img-4 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
 	url(img/contacts.jpg);
   background-size:cover;
 }
+.gallery-img-5 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(img/web-dev.jpeg);
+  background-size:cover;
+}
 
-.xop-info {
+.gallery-info {
 	position: absolute;
 	width: inherit;
 	height: inherit;
 }
 
-.xop-info h3 {
+.gallery-info h3 {
 	font-family: 'Pacifico', cursive;
 	font-weight: 400;
 	color: #fff;
@@ -341,7 +345,7 @@ perspective: 800px;
 	line-height: 1.5;
 }
 
-.xop-info p {
+.gallery-info p {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
   text-shadow: 0px 0px 10px #000;
@@ -353,7 +357,7 @@ perspective: 800px;
 .back{
   display: none;
 }
-.xop-info.back{
+.gallery-info.back{
   top: 25%;
 }
 
@@ -381,7 +385,7 @@ perspective: 800px;
     font-size: 18px;
     padding: 0px;
   }
-  .xop-section{
+  .gallery-section{
     	margin: 0 auto;
       max-width: 960px;
   }
