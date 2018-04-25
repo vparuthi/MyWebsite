@@ -28,7 +28,7 @@
         <img src="img/questionmark.png" alt="" class="nav-icons">
       </a>
       <a id="work" href="#work-title">
-        <h4>Work</h4>
+        <h4>Projects</h4>
         <img src="img/toolbox.png" alt="" class="nav-icons">
       </a>
       <a id="contact" href="#contact-title">
@@ -47,17 +47,17 @@
         </svg>
         <h1 class="subheadings" id="about-title">About</h1>
       </div>
-      <div>
+      <div id="intro-paragraph">
         <p>I am a first year Computer Engineering student at the University of Waterloo who has put in countless hours into Android App Development,
           been lost in the intricacies of front end web-development, and have even gained years of experience in sales. On my journey here I've learned C++, Java, VBA, frontend web-development (HTML, CSS, & Javascript), and I'm just getting started!
           <br>
           <br>
           I reside in Mississauga, Ontario and I am looking forward to growing my skillsets, both personal and professional anywhere around the globe.
          gallery can't wait to be immersed in teams of talented individuals who are working on projects I would love to be a part of.
-          If you'd like to help me make this happen then <a href="#" class="Raleway-change" id="get-in-touch-link">let's get in touch</a>.
+          If you'd like to help me make this happen then <a href="#contact-title" class="Raleway-change" id="get-in-touch-link">let's get in touch</a>.
         </p>
       </div>
-      <div class="about-nested Raleway-change">
+      <div class="about-nested Raleway-change span-entire">
         <div id="Resume" class="about-nested-child">
           <img src="img/resume.jpg" alt="" class="resume-icon">
           <h5><a href="Agenda.pdf">Resume</a></h5>
@@ -78,7 +78,18 @@
         </svg>
         <h1 class="subheadings" id="work-title">My Projects</h1>
       </div>
-      <div class="work-subheadings">
+			<div class="work-platforms">
+				<div>
+					<a href="#android-applications" class="links"><h2>Android Applications</h2></a>
+				</div>
+				<div>
+					<a href="#web-dev" class="links"><h2>Web-Development</h2></a>
+				</div>
+				<div>
+					<a href="#c" class="links"><h2>C++</h2></a>
+				</div>
+			</div>
+      <div class="work-subheadings" id="android-applications">
         <h1>Android Applications</h1>
       </div>
     </div>
@@ -89,11 +100,11 @@
             <div class="gallery-info">
               <h3>Calculator</h3>
               <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
-              <button type="button" class="btn btn-light">Show More</button>
+              <button type="button" class="btn btn-light">More Details</button>
             </div>
             <div class="gallery-info back">
               <p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
-              <button type="button" class="btn btn-light">Show Less</button>
+              <button type="button" class="btn btn-light">Hide Details</button>
             </div>
           </div>
         </li>
@@ -102,11 +113,11 @@
             <div class="gallery-info">
               <h3>Tic-Tac-Toe</h3>
               <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
-              <button type="button" class="btn btn-light">Show More</button>
+              <button type="button" class="btn btn-light">More Details</button>
             </div>
             <div class="gallery-info back">
               <p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
-              <button type="button" class="btn btn-light">Show More</button>
+              <button type="button" class="btn btn-light">Hide Details</button>
             </div>
           </div>
         </li>
@@ -115,11 +126,11 @@
             <div class="gallery-info">
               <h3>Weather</h3>
               <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
-              <button type="button" class="btn btn-light">Show More</button>
+              <button type="button" class="btn btn-light">More Details</button>
             </div>
             <div class="gallery-info back">
               <p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
-              <button type="button" class="btn btn-light">Show More</button>
+              <button type="button" class="btn btn-light">Hide Details</button>
             </div>
           </div>
         </li>
@@ -128,18 +139,18 @@
             <div class="gallery-info">
               <h3>Contacts</h3>
               <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
-              <button type="button" class="btn btn-light">Show More</button>
+              <button type="button" class="btn btn-light">More Details</button>
             </div>
-            <div class="xop-info back">
+            <div class="gallery-info back">
               <p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
-              <button type="button" class="btn btn-light">Show More</button>
+              <button type="button" class="btn btn-light">Hide Details</button>
             </div>
           </div>
         </li>
       </ul>
     </div>
 		<div class="work-wrapper">
-			<div class="work-subheadings">
+			<div class="work-subheadings" id="web-dev">
 				<h1>Front-End Web Devlopment</h1>
 			</div>
 		</div>
@@ -150,33 +161,72 @@
             <div class="gallery-info">
               <h3>This Website</h3>
               <p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
-              <button type="button" class="btn btn-light">Show More</button>
+              <button type="button" class="btn btn-light">More Details</button>
             </div>
             <div class="gallery-info back">
               <p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
-              <button type="button" class="btn btn-light">Show Less</button>
+              <button type="button" class="btn btn-light">Hide Details</button>
             </div>
           </div>
         </li>
       </ul>
     </div>
 		<div class="work-wrapper">
-			<div class="work-subheadings">
+			<div class="work-subheadings" id="c">
 				<h1>C++</h1>
 			</div>
 		</div>
 		<div class="gallery-section">
 			<ul class="gallery-grid">
 				<li class="gallery-grid-li">
-					<div class="gallery-box gallery-img-5">
+					<div class="gallery-box gallery-img-6">
 						<div class="gallery-info">
-							<h3>This Website</h3>
+							<h3>ECG</h3>
 							<p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
-							<button type="button" class="btn btn-light">Show More</button>
+							<button type="button" class="btn btn-light">More Details</button>
 						</div>
 						<div class="gallery-info back">
 							<p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
-							<button type="button" class="btn btn-light">Show Less</button>
+							<button type="button" class="btn btn-light">Hide Details</button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="gallery-box gallery-img-7">
+						<div class="gallery-info multi-line-title">
+							<h3>Projectile Motion with Drag</h3>
+							<p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
+							<button type="button" class="btn btn-light">More Details</button>
+						</div>
+						<div class="gallery-info back">
+							<p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
+							<button type="button" class="btn btn-light">Hide Details</button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="gallery-box gallery-img-8">
+						<div class="gallery-info">
+							<h3>CSV File Writing</h3>
+							<p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
+							<button type="button" class="btn btn-light">More Details</button>
+						</div>
+						<div class="gallery-info back">
+							<p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
+							<button type="button" class="btn btn-light">Hide Details</button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="gallery-box gallery-img-9">
+						<div class="gallery-info multi-line-title">
+							<h3>Homework Queue</h3>
+							<p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
+							<button type="button" class="btn btn-light">More Details</button>
+						</div>
+						<div class="gallery-info back">
+							<p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
+							<button type="button" class="btn btn-light">Hide Details</button>
 						</div>
 					</div>
 				</li>
@@ -202,7 +252,7 @@
           </div>
           <div>
             <p>Currently I am actively looking for a four month co-op placement - spanning from September 2018 - December 2018.
-              Feel free to contact me through any of the options listed below. I would love to hear from you. </p>
+              Feel free to contact me through any of the mediums listed below. I would love to hear from you! </p>
           </div>
           <div>
             <p class="information">
