@@ -411,10 +411,17 @@ p {
 }
 .gallery-info.back p{
   text-align: left;
-  margin-top: 30px;
+  margin-top: 5%;
 }
 .gallery-info button{
   font-family: 'Raleway', sans-serif;
+  position: absolute;
+  bottom: 10%;
+  left: 27%;
+}
+.gallery-info.back button{
+  position: absolute;
+  left: 107px;
 }
 .back{
   display: none;
