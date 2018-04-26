@@ -4,13 +4,12 @@ $(document).ready(function() {
       console.log(target);
       $('html, body').animate({
         scrollTop: $(target).offset().top
-      }, 1500)
+      }, 1250)
   });
   $(".btn-light").click(function(){
     var parents = $(this).parents();
-    // $(parents[2]).css("width", "500px");
-    console.log(parents);
-    console.log($(parents[0]).siblings());
+    // console.log(parents);
+    // console.log($(parents[0]).siblings());
 
   $(parents[0]).siblings().fadeIn();
   $(parents[0]).fadeOut();
