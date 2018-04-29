@@ -49,7 +49,7 @@
       </div>
       <div id="intro-paragraph">
         <p>I am a first year Computer Engineering student at the University of Waterloo who has put in countless hours into Android App Development,
-          been lost in the intricacies of front end web-development, and have even gained years of experience in sales. On my journey here I've learned C++, Java, VBA, frontend web-development (HTML, CSS, & Javascript), and I'm just getting started!
+          been lost in the intricacies of front end web-development, and have even gained years of experience in sales. On my journey here I've learned C++, Java, VBA, frontend web-development (HTML, CSS, & Javascript), coding in teams, and I'm just getting started!
           <br>
           <br>
           I reside in Mississauga, Ontario and I am looking forward to growing my skillsets, both personal and professional anywhere around the globe.
@@ -98,7 +98,7 @@
     </div>
     <div class="gallery-section">
       <ul class="gallery-grid">
-				<li class="gallery-grid-li">
+				<li class="gallery-grid-li" id="contacts">
 					<div class="gallery-box gallery-img-4">
 						<div class="gallery-info">
 							<h3>Contacts</h3>
@@ -185,7 +185,7 @@
 		</div>
 		<div class="gallery-section">
       <ul class="gallery-grid">
-        <li class="gallery-grid-li">
+        <li class="gallery-grid-li wide-grid">
           <div class="gallery-box gallery-img-5">
             <div class="gallery-info">
               <h3>This Website</h3>
@@ -200,6 +200,7 @@
 								<br> Javascript,
 								<br> Bootstrap 4,
 								<br> JQuery,
+								<br> Dynamic Elements,
 								<br> Getting a website live
 							</p>
 							<button type="button" class="btn btn-light">Hide Details</button>
@@ -215,56 +216,81 @@
 		</div>
 		<div class="gallery-section">
 			<ul class="gallery-grid">
-				<li class="gallery-grid-li">
+				<li class="gallery-grid-li wide-grid" id="ecg-grid">
 					<div class="gallery-box gallery-img-6">
-						<div class="gallery-info">
+						<div class="gallery-info multi-line-title">
 							<h3>ECG</h3>
-							<p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
+							<p>The project’s goal was to create a compact device that will measure the electrical data, and represent it as an ECG. The system writes raw data to a CSV file through serial communication with the Arduino Uno through UART Creates a log of heart rate measurements to a text file, and obtains those values through a heart rate algorithm.</p>
 							<button type="button" class="btn btn-light">Skills Developed</button>
 						</div>
 						<div class="gallery-info back">
-							<p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
+							<p>
+								<b class="gallery-back-heading">What I learned:</b>
+								<br> Arduino
+								<br> Onion Omega Board
+								<br> Log Files
+								<br> GPIO pin configuration
+								<br> Using hardware (Breadboards, LEDs, etc.)
+							</p>
 							<button type="button" class="btn btn-light">Hide Details</button>
-						</div>
+            </div>
 					</div>
 				</li>
 				<li>
 					<div class="gallery-box gallery-img-7">
 						<div class="gallery-info multi-line-title">
 							<h3>Projectile Motion with Drag</h3>
-							<p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
+							<p> implement a function that performs a discrete-time simulation to compute the necessary initial velocity to hit a target using given the parameters.</p>
 							<button type="button" class="btn btn-light">Skills Developed</button>
 						</div>
 						<div class="gallery-info back">
-							<p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
+							<p>
+								<b class="gallery-back-heading">What I learned:</b>
+								<br> Bisection Sort,
+								<br> Recursive functions,
+								<br> Corner Cases,
+								<br> Using helper functions
+							</p>
 							<button type="button" class="btn btn-light">Hide Details</button>
-						</div>
+            </div>
 					</div>
 				</li>
 				<li>
 					<div class="gallery-box gallery-img-8">
-						<div class="gallery-info">
+						<div class="gallery-info multi-line-title">
 							<h3>CSV File Writing</h3>
-							<p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
+							<p>This project recursively read data from a text file, removed bad data, and then processed it to create a histogram. Once processed a CSV file was created and the data outputted.</p>
 							<button type="button" class="btn btn-light">Skills Developed</button>
 						</div>
 						<div class="gallery-info back">
-							<p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
+							<p>
+								<b class="gallery-back-heading">What I learned:</b>
+								<br> State Machines,
+								<br> Creating a CSV file,
+								<br> Statistic Calculations,
+								<br> Structs
+							</p>
 							<button type="button" class="btn btn-light">Hide Details</button>
-						</div>
+            </div>
 					</div>
 				</li>
-				<li>
+				<li class="gallery-grid-li wide-grid">
 					<div class="gallery-box gallery-img-9">
-						<div class="gallery-info multi-line-title">
-							<h3>Homework Queue</h3>
-							<p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
+						<div class="gallery-info multi-line-title" id="homework-grid">
+							<h3>Homework Management Priority Queue</h3>
+							<p>This will maintain a linked list of assignments, ordered by the due date of the assignments, and only allow the removal of the assignment with the earliest due date. This can also inform the user what assignments we have to complete over the next N days.</p>
 							<button type="button" class="btn btn-light">Skills Developed</button>
 						</div>
 						<div class="gallery-info back">
-							<p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
+							<p>
+								<b class="gallery-back-heading">What I learned:</b>
+								<br> State Machines,
+								<br> Creating a CSV file,
+								<br> Statistic Calculations,
+								<br> Structs
+							</p>
 							<button type="button" class="btn btn-light">Hide Details</button>
-						</div>
+            </div>
 					</div>
 				</li>
 			</ul>
@@ -276,56 +302,80 @@
 		</div>
 		<div class="gallery-section">
 			<ul class="gallery-grid">
-				<li class="gallery-grid-li">
-					<div class="gallery-box gallery-img-6">
+				<li class="gallery-grid-li wide-grid">
+					<div class="gallery-box gallery-img-10">
 						<div class="gallery-info">
 							<h3>VBA Macros</h3>
-							<p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
+							<p>During my co-op term at BMO Financial we used an Intake tool. However, with changes happening in other company tools, ours was slowly becoming incompatible. I decided to take lead and update the tool in order to decrease our intake processing time.</p>
 							<button type="button" class="btn btn-light">Skills Developed</button>
 						</div>
 						<div class="gallery-info back">
-							<p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
+							<p>
+								<b class="gallery-back-heading">What I learned:</b>
+								<br> Creating IE Windows,
+								<br> Automation in IE Windows,
+								<br> Creating PDFs,
+								<br> Reading and Formatting Excel Sheets
+							</p>
 							<button type="button" class="btn btn-light">Hide Details</button>
-						</div>
+            </div>
 					</div>
 				</li>
-				<li>
-					<div class="gallery-box gallery-img-7">
-						<div class="gallery-info">
-							<h3>Latex Resume</h3>
-							<p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
-							<button type="button" class="btn btn-light">Skills Developed</button>
-						</div>
-						<div class="gallery-info back">
-							<p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
-							<button type="button" class="btn btn-light">Hide Details</button>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="gallery-box gallery-img-8">
+				<li class="gallery-grid-li">
+					<div class="gallery-box gallery-img-12">
 						<div class="gallery-info">
 							<h3>Flow Charts</h3>
-							<p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
+							<p>Over the years I have flowcharted many projects and learned its importance inc reading a well structured project.</p>
 							<button type="button" class="btn btn-light">Skills Developed</button>
 						</div>
 						<div class="gallery-info back">
-							<p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
+							<p>
+								<b class="gallery-back-heading">What I learned:</b>
+								<br> Shape Usage,
+								<br> Line Usage,
+								<br> Overall Formatting,
+								<br> Importance of Flowchartting
+							</p>
+							<button type="button" class="btn btn-light">Hide Details</button>
+            </div>
+					</div>
+				</li>
+				<li class="gallery-grid-li wide-grid">
+					<div class="gallery-box gallery-img-13">
+						<div class="gallery-info multi-line-title">
+							<h3>Jump - Visual Basic Game</h3>
+							<p>Jump is a enjoyable two player game grid based game that involves a turn based race. Players adjust can only adjust their velocity by one unit in the x and/or y-axis each turn. They have traverse the dynamic courses, avoiding obstacles and capturing a flag prior to reaching the finish line. First one there wins. </p>
+							<button type="button" class="btn btn-light">Skills Developed</button>
+						</div>
+						<div class="gallery-info back">
+							<p>
+								<b class="gallery-back-heading">What I learned:</b>
+								<br> Coding in a team
+								<br> The life cycle from idea creation to a final product,
+								<br> Graphics usings pixel arrays,
+								<br> Keyboard inputs
+							</p>
+							<button type="button" class="btn btn-light">Hide Details</button>
+            </div>
+					</div>
+				</li>
+				<li class="gallery-grid-li">
+					<div class="gallery-box gallery-img-11">
+						<div class="gallery-info">
+							<h3>Latex Resume</h3>
+							<p>My resume was created and modified in the Latex editor - allowing me to customize the template foudn to my own liking.</p>
+							<button type="button" class="btn btn-light">Skills Developed</button>
+						</div>
+						<div class="gallery-info back">
+							<p>
+								<b class="gallery-back-heading">What I learned:</b>
+								<br> Latex Tags,
+								<br> Creating Sections,
+								<br> Hyperlinks,
+							</p>
 							<button type="button" class="btn btn-light">Hide Details</button>
 						</div>
 					</div>
-				</li>
-				<li>
-					<div class="gallery-box gallery-img-9">
-						<div class="gallery-info multi-line-title">
-							<h3>Visual Basic Game</h3>
-							<p>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.</p>
-							<button type="button" class="btn btn-light">Skills Developed</button>
-						</div>
-						<div class="gallery-info back">
-							<p>Feel free to share a screenshot of what you’ve made using this tutorial in the comments section below! Have any questions or comments?</p>
-							<button type="button" class="btn btn-light">Hide Details</button>
-						</div>
 					</div>
 				</li>
 			</ul>
@@ -334,10 +384,7 @@
 
   <section>
     <div class="wrapper" id="last-wrapper">
-      <div>
-        <img src="img/contact-photo.jpg" alt="" class="contact-photo">
-      </div>
-      <div>
+      <div class="contact-info-cell">
         <div class="contact-nested">
           <div>
             <div class="headings" id="contact-me">
@@ -382,6 +429,10 @@
         </div>
       </div>
     </div>
+		<div class="contact-photo-cell">
+			<img src="img/contact-photo.jpg" alt="" class="contact-photo">
+		</div>
+	</div>
   </section>
   <!-- <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
