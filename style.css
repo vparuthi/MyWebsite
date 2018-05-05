@@ -286,6 +286,10 @@ p {
 .links:hover{
   text-decoration: none;
 }
+#enghack-link{
+  text-decoration: none;
+  color: white;
+}
 
 .gallery-section{
   max-width: 1250px;
@@ -400,6 +404,11 @@ p {
 	url(img/jump.jpeg);
   background-size:cover;
 }
+.gallery-img-14 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(img/hackathon.png);
+  background-size:cover;
+}
 
 .gallery-info {
 	position: absolute;
@@ -446,6 +455,9 @@ p {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+#enghack-button{
+  bottom: 25%;
 }
 .back{
   display: none;
