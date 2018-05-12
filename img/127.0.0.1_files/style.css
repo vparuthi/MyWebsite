@@ -1,0 +1,36 @@
+.body{
+  background-color: #000639;
+  font: Helvetica;
+}
+.title{
+  color: white;
+  font-size: 24px;
+}
+.title-line{
+  border-top: 2px solid #7AB55C;
+  margin: 0px 420px 16px 0px;
+  width: 30px;
+}
+.subheading{
+  margin-top: 25px;
+}
+.subheading p{
+  font-size: 16px;
+  color: white;
+}
+input:focus {
+  outline:none;
+}
+.invail-email-message{
+  font-size: 12px;
+  color: #C23628;
+  display: none;
+}
+.submit-btn{
+  font-size: 16px;
+  font: Helvetica;
+  color: white;
+  background-color: #5c6ac4;
+  padding: 25px;
+  width: 100%;
+}
