@@ -410,7 +410,11 @@ p {
 	url(img/hackathon.png);
   background-size:cover;
 }
-
+.gallery-img-15 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(img/box.jpg);
+  background-size:cover;
+}
 .gallery-info {
 	position: absolute;
 	width: inherit;
