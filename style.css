@@ -23,7 +23,7 @@ body {
     transition: background-color .5s;
 }
 a:visited{
-  color: rgba(192, 38, 46)
+  color: rgba(0, 0, 0);
   text-decoration: none;
 }
 
@@ -178,6 +178,7 @@ p {
   text-align: center;
   transform: translateX(-10%);
   height: 150px;
+  margin-left: 10vw
 }
 .headings h1{
   font-family: 'simple', sans-serif;
@@ -410,11 +411,7 @@ p {
 	url(img/hackathon.png);
   background-size:cover;
 }
-.gallery-img-15 {
-	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
-	url(img/box.jpg);
-  background-size:cover;
-}
+
 .gallery-info {
 	position: absolute;
 	width: inherit;
@@ -485,11 +482,17 @@ p {
   section{
     margin-left: 10%;
   }
+  .work-wrapper, .wrapper{
+    margin: 10% 10% 5% 10%;
+  }
+  .headings{
+    margin-left: 10vw;
+  }
   /* .work-platforms{
     margin: 50px 50px 50px 50px;
   } */
 }
-@media screen and (max-width: 760px) { /*mobile view*/
+@media screen and (max-width: 768px) { /*mobile view*/
   .content h1{
     font-size: 250%;
   }
@@ -559,6 +562,10 @@ p {
   .contact-info-cell{
     grid-column: 1/-1;
   }
+  .contact-nested{
+    margin: 0;
+    margin-left: 30px;
+  }
   #contact-me{
     grid-column: 1/-1;
   }
@@ -588,5 +595,9 @@ p {
   }
   .contact-nested{
     width: 75vw
+  }
+  .getStartedButton:hover{
+    color: rgb(25, 25, 25);
+    border: solid rgb(25,25,25) 3px;
   }
 }
