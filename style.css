@@ -477,7 +477,7 @@ p {
 
 @media screen and (min-width: 1600px) {
   .gallery-section{
-    margin-left: 25%;
+    margin-left: 10%;
   }
   section{
     margin-left: 10%;
@@ -488,9 +488,16 @@ p {
   .headings{
     margin-left: 10vw;
   }
-  /* .work-platforms{
-    margin: 50px 50px 50px 50px;
-  } */
+}
+@media screen and (min-width: 2000px) {
+  .gallery-section{
+    margin-left: 18%;
+  }
+}
+@media screen and (min-width: 2400px) {
+  .gallery-section{
+    margin-left: 23%;
+  }
 }
 @media screen and (max-width: 768px) { /*mobile view*/
   .content h1{
