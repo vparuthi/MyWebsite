@@ -474,7 +474,9 @@ p {
 #ecg-grid button, #ecg-grid .back button{
   bottom: 12%;
 }
-
+.contact-me-paragraph{
+  padding-right: 70px;
+}
 @media screen and (min-width: 1600px) {
   .gallery-section{
     margin-left: 10%;
