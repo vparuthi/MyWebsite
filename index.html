@@ -24,15 +24,15 @@
   <div id="navbar">
     <div class="nav-contents Raleway-change">
       <a id="about" href="#about-title">
-        <h4>About</h4>
+        <h4 class="nav-text">About</h4>
         <img src="img/questionmark.png" alt="" class="nav-icons">
       </a>
       <a id="work" href="#work-title">
-        <h4>Projects</h4>
+        <h4 class="nav-text">Projects</h4>
         <img src="img/toolbox.png" alt="" class="nav-icons">
       </a>
       <a id="contact" href="#contact-title">
-        <h4>Contact</h4>
+        <h4 class="nav-text">Contact</h4>
         <img src="img/mail.png" alt="" class="nav-icons">
       </a>
     </div>
@@ -48,8 +48,8 @@
         <h1 class="subheadings" id="about-title">About</h1>
       </div>
       <div id="intro-paragraph">
-        <p>I am a first year Computer Engineering student at the University of Waterloo who has put in countless hours into Android App Development,
-          been lost in the intricacies of front end web-development, and have even gained years of experience in sales. On my journey here I've learned C++, Java, VBA, frontend web-development (HTML, CSS, & Javascript), coding in teams, and I'm just getting started!
+				<p>I am a first year Computer Engineering student at the University of Waterloo who has worked at the Bank of Montreal and Rogers Communications. I have put in countless hours into Android App Development,
+          been lost in the intricacies of front end web-development, and have even gained years of experience in sales. On my journey here I've learned C++, Java, Python, front end web-development (HTML, CSS, & Javascript), coding in teams, and I'm just getting started!
           <br>
           <br>
           I reside in Mississauga, Ontario and I am looking forward to growing my skillsets, both personal and professional anywhere around the globe.
@@ -58,14 +58,18 @@
         </p>
       </div>
       <div class="about-nested Raleway-change span-entire">
-        <div id="Resume" class="about-nested-child">
-          <img src="img/resume.jpg" alt="" class="resume-icon">
-          <h5><a href="resume.pdf">Resume</a></h5>
-        </div>
-        <div id="Git"class="about-nested-child">
-          <img src="img/git.png" alt="" class="git-icon">
-          <h5><a href="https://github.com/vparuthi">GitHub</a></h5>
-        </div>
+				<a href="resume.pdf">
+					<div id="Resume" class="about-nested-child">
+	          <img src="img/resume.jpg" alt="" class="resume-icon">
+	          <h5 class="plain-text">Resume</h5>
+	        </div>
+				</a>
+				<a href="https://github.com/vparuthi">
+					<div id="Git"class="about-nested-child">
+	          <img src="img/git.png" alt="" class="git-icon">
+	          <h5 class="plain-text">GitHub</h5>
+	        </div>
+				</a>
       </div>
   </section>
 
@@ -80,22 +84,57 @@
       </div>
 			<div class="work-platforms">
 				<div>
-					<a href="#android-applications" class="links"><h2>Android Applications</h2></a>
+					<a href="#machine-learning" class="links"><h2 class="nav-text">Machine <br> Learning</h2></a>
 				</div>
 				<div>
-					<a href="#web-dev" class="links"><h2>Web-Development</h2></a>
+					<a href="#android-applications" class="links"><h2 class="nav-text">Android <br>Applications</h2></a>
 				</div>
 				<div>
-					<a href="#c" class="links"><h2>C++</h2></a>
+					<a href="#web-dev" class="links"><h2 class="nav-text">Web <br>Development</h2></a>
 				</div>
 				<div>
-					<a href="#other" class="links"><h2>Other</h2></a>
+					<a href="#c" class="links"><h2 class="nav-text extra-padding">C++</h2></a>
+				</div>
+				<div>
+					<a href="#other" class="links"><h2 class="nav-text extra-padding">Other</h2></a>
 				</div>
 			</div>
-      <div class="work-subheadings" id="android-applications">
-        <h1>Android Applications</h1>
-      </div>
     </div>
+		<div class="work-wrapper">
+			<div class="work-subheadings" id="machine-learning">
+				<h1>Machine Learning</h1>
+			</div>
+		</div>
+		<div class="gallery-section">
+			<ul class="gallery-grid">
+				<li class="gallery-grid-li wide-grid" id="ecg-grid">
+					<div class="gallery-box gallery-img-15">
+						<div class="gallery-info multi-line-title">
+							<h3>My Health - Alexa Skill</h3>
+							<p>Utilized Python, Alexa, AWS, and Amazon Transcribe to create a machine learning algorithm that predicts if an individual has a form of dementia. The ML algorithm was trained in 7 folds and  had an accuracy of 80%.  Created a custom API to connect all the different AWS services used.</p>
+							<button type="button" class="btn btn-light">Skills Developed</button>
+						</div>
+						<div class="gallery-info back">
+							<p>
+								<b class="gallery-back-heading">What I learned:</b>
+								<br> AWS
+								<br> Node.js
+								<br> Python
+								<br> Scikit-learn
+								<br> Lambda
+								<br> Testing and training data
+							</p>
+							<button type="button" class="btn btn-light">Hide Details</button>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="work-wrapper">
+			<div class="work-subheadings" id="android-applications">
+				<h1>Android Applications</h1>
+			</div>
+		</div>
     <div class="gallery-section">
       <ul class="gallery-grid">
 				<!-- <li class="gallery-grid-li">
@@ -117,6 +156,65 @@
 						</div>
 					</div>
 				</li> -->
+				<li class="gallery-grid-li wide-grid" id="ecg-grid">
+					<div class="gallery-box gallery-img-16">
+						<div class="gallery-info multi-line-title">
+							<h3>Rogers Music Radio</h3>
+							<p>I worked on all 41 Music Radio Android applications during my time at Rogers. Examples of these apps include, Kiss 92.5, Jack FM, Sonic 102.9, CHES, and more. During my time there, I remodelled how analytics were handled using Adobe, and fixed bugs.</p>
+							<button type="button" class="btn btn-light">Skills Developed</button>
+						</div>
+						<div class="gallery-info back">
+							<p>
+								<b class="gallery-back-heading">What I learned:</b>
+								<br>Working with a Large Scale Project,
+								<br>Urban Airship,
+								<br>Multiple Project Applications,
+								<br>Uploading Builds,
+								<br>Working in an Agile environment
+							</p>
+							<button type="button" class="btn btn-light">Hide Details</button>
+            </div>
+					</div>
+				</li>
+				<li class="gallery-grid-li" id="contacts">
+					<div class="gallery-box gallery-img-18">
+						<div class="gallery-info multi-line-title" id="mealTime">
+							<h3>Today's Parent MealTime</h3>
+							<p>Provides users with hundreds of recipes to meal plan. Added an entirely new meal planning page within the app - implemented a RecyclerView with multi gesture support.</p>
+							<button type="button" class="btn btn-light">Skills Developed</button>
+						</div>
+						<div class="gallery-info back">
+							<p>
+								<b class="gallery-back-heading">What I learned:</b>
+								<br>In depth understanding of RecyclerViews
+								<br>ItemTouchHelper
+								<br>Animations
+								<br>Multi-Activity Communication
+							</p>
+							<button type="button" class="btn btn-light">Hide Details</button>
+						</div>
+					</div>
+				</li>
+				<li class="gallery-grid-li wide-grid" id="ecg-grid">
+					<div class="gallery-box gallery-img-17">
+						<div class="gallery-info multi-line-title">
+							<h3>Rogers Green Radio</h3>
+							<p>Worked on 8 AM Radio applications, such as 1130 AM or 680 AM, at Rogers. I implemented deep linking using Urban Airship, remodelled how analytics were handing using Adobe, and fixes a variety of bugs. </p>
+							<button type="button" class="btn btn-light">Skills Developed</button>
+						</div>
+						<div class="gallery-info back">
+							<p>
+								<b class="gallery-back-heading">What I learned:</b>
+								<br>Working with Intents,
+								<br>Urban Airship,
+								<br>Multiple Project Applications,
+								<br>Uploading Builds,
+								<br>Working in an Agile environment
+							</p>
+							<button type="button" class="btn btn-light">Hide Details</button>
+						</div>
+					</div>
+				</li>
 				<li class="gallery-grid-li" id="contacts">
 					<div class="gallery-box gallery-img-4">
 						<div class="gallery-info">
@@ -128,7 +226,7 @@
 							<p>
 								<b class="gallery-back-heading">What I learned:</b>
 								<br>Multi-activity communication,
-								<br> Gaining access to internal storage,
+								<br>Gaining access to internal storage,
 								<br>Saving images as bitmaps,
 								<br>SQLite, <br> Bettered my usage of OOP,
 								<br>The importance of planning prior to coding
@@ -437,7 +535,7 @@
             </div>
           </div>
           <div>
-            <p class="contact-me-paragraph">Currently I am actively looking for a four month co-op placement - spanning from September 2018 - December 2018.
+            <p class="contact-me-paragraph">Currently I am actively looking for a four month co-op placement - spanning from May 2019 - August 2019.
             		Feel free to contact me through any of the mediums listed below. I would love to hear from you! </p>
           </div>
           <div>
