@@ -444,6 +444,13 @@ p {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
 	url(img/mealprep.jpg);
   background-size:cover;
+  src:
+}
+.gallery-img-19 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(img/ml-img.jpg);
+  background-size:cover;
+  src:
 }
 .gallery-info {
 	position: absolute;
@@ -469,7 +476,10 @@ p {
   padding: 15px 0 0 0;
   font-size: 30px;
 }
-
+#stockH3{
+  padding: 15px 0 0 0;
+  font-size: 33px;
+}
 .gallery-info p {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
