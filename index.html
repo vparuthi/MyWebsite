@@ -48,13 +48,13 @@
         <h1 class="subheadings" id="about-title">About</h1>
       </div>
       <div id="intro-paragraph">
-				<p>I am a first year Computer Engineering student at the University of Waterloo who has worked at the Bank of Montreal and Rogers Communications. I have put in countless hours into Android App Development,
-          been lost in the intricacies of front end web-development, and have even gained years of experience in sales. On my journey here I've learned C++, Java, Python, front end web-development (HTML, CSS, & Javascript), coding in teams, and I'm just getting started!
+		<p>
+			I'm a second year Computer Engineering student at the University of Waterloo who has worked at CIBC Data Studio, Rogers Communications, and BMO. I have put countless hours into 	data science, software engineering, and Android app development. On my journey here I've learned Python, Java, JS, C++ and my experience ranges from utilzing GCP and sklearn models to creating Flask web applications. I've worked in Agile work environments with teams ranging in size from 3 to 15 and I'm just getting started!
           <br>
           <br>
-          I reside in Mississauga, Ontario and I am looking forward to growing my skillsets, both personal and professional anywhere around the globe.
-       		I can't wait to be immersed in teams of talented individuals who are working on projects I would love to be a part of.
-          If you'd like to help me make this happen then <a href="#contact-title" class="Raleway-change" id="get-in-touch-link">let's get in touch</a>.
+          	I reside in Mississauga, Ontario and I am looking forward to growing my skillsets, both personal and professional anywhere around the globe.
+   			I can't wait to be immersed in teams of talented individuals who are working on projects I would love to be a part of.
+          	If you'd like to help me make this happen then <a href="#contact-title" class="Raleway-change" id="get-in-touch-link">let's get in touch</a>.
         </p>
       </div>
       <div class="about-nested Raleway-change span-entire">
@@ -107,6 +107,30 @@
 		</div>
 		<div class="gallery-section">
 			<ul class="gallery-grid">
+				<li class="gallery-grid-li wide-grid" id="ecg-grid">
+					<div class="gallery-box gallery-img-20">
+						<div class="gallery-info multi-line-title">
+							<h3>Music Predictor</h3>
+							<p>Created a Flask web app that predicts a user’s preferred genre of music using an multi-label kNN model.
+							Using predicted results a Flask endpoint calls Spotify’sAPI to get the top playlists for each genre.
+							Developed using an AMD format resulting in a highly modular codebase and deployed the application on GCP’s Compute Engine</p>
+							<button type="button" class="btn btn-secondary" id="enghack-button"><a id="enghack-link" href="http://35.203.81.177:8080/">View Web App</a></button>
+							<button type="button" class="btn btn-light">Skills Developed</button>
+						</div>
+						<div class="gallery-info back">
+							<p>
+								<b class="gallery-back-heading">What I learned:</b>
+								<br> Python
+								<br> Flask
+								<br> Multi-lebel data
+								<br> JS
+								<br> Asynchronous Module Definition (AMD) 
+								<br> Deploying on a GCP VM
+							</p>
+							<button type="button" class="btn btn-light">Hide Details</button>
+						</div>
+					</div>
+				</li>				
 				<li class="gallery-grid-li wide-grid" id="ecg-grid">
 					<div class="gallery-box gallery-img-15">
 						<div class="gallery-info multi-line-title">
@@ -256,26 +280,6 @@
 						</div>
 					</div>
 				</li>
-        <li class="gallery-grid-li">
-          <div class="gallery-box gallery-img-1">
-            <div class="gallery-info">
-              <h3>Calculator</h3>
-              <p>This is a simply calculator app I developed. It was a great method of increasing my knowledge in Android Studio</p>
-              <button type="button" class="btn btn-light">Skills Developed</button>
-            </div>
-            <div class="gallery-info back">
-              <p>
-								<b class="gallery-back-heading">What I learned:</b>
-								<br>Setting an icon for the app,
-								<br>Using a linear layout,
-								<br>Searching for and solving corner cases,
-								<br>Animations,
-								<br>Debugging
-							</p>
-              <button type="button" class="btn btn-light">Hide Details</button>
-            </div>
-          </div>
-        </li>
 				<li class="gallery-grid-li">
 					<div class="gallery-box gallery-img-3">
 						<div class="gallery-info">
@@ -295,7 +299,27 @@
 						</div>
 					</div>
 				</li>
-        <li class="gallery-grid-li">
+		        <li class="gallery-grid-li">
+		          <div class="gallery-box gallery-img-1">
+		            <div class="gallery-info">
+		              <h3>Calculator</h3>
+		              <p>This is a simply calculator app I developed. It was a great method of increasing my knowledge in Android Studio</p>
+		              <button type="button" class="btn btn-light">Skills Developed</button>
+		            </div>
+		            <div class="gallery-info back">
+		              <p>
+										<b class="gallery-back-heading">What I learned:</b>
+										<br>Setting an icon for the app,
+										<br>Using a linear layout,
+										<br>Searching for and solving corner cases,
+										<br>Animations,
+										<br>Debugging
+									</p>
+		              <button type="button" class="btn btn-light">Hide Details</button>
+		            </div>
+		          </div>
+		        </li>				
+<!--         <li class="gallery-grid-li">
           <div class="gallery-box gallery-img-2">
             <div class="gallery-info">
               <h3>Tic-Tac-Toe</h3>
@@ -313,12 +337,12 @@
 							<button type="button" class="btn btn-light">Hide Details</button>
             </div>
           </div>
-        </li>
+        </li> -->
       </ul>
     </div>
 		<div class="work-wrapper">
 			<div class="work-subheadings" id="web-dev">
-				<h1>Front-End Web Devlopment</h1>
+				<h1>Web Devlopment</h1>
 			</div>
 		</div>
 		<div class="gallery-section">
@@ -519,7 +543,7 @@
             </div>
 					</div>
 				</li>
-				<li class="gallery-grid-li">
+				<!-- <li class="gallery-grid-li">
 					<div class="gallery-box gallery-img-11">
 						<div class="gallery-info">
 							<h3>Latex Resume</h3>
@@ -537,7 +561,7 @@
 						</div>
 					</div>
 					</div>
-				</li>
+				</li> -->
 			</ul>
 		</div>
   </section>
@@ -556,7 +580,7 @@
             </div>
           </div>
           <div>
-            <p class="contact-me-paragraph">Currently I am actively looking for a four month co-op placement - spanning from May 2019 - August 2019.
+            <p class="contact-me-paragraph">Currently I am actively looking for a four month co-op placement - spanning from January 2020 - April 2020.
             		Feel free to contact me through any of the mediums listed below. I would love to hear from you! </p>
           </div>
           <div>

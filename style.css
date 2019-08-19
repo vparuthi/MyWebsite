@@ -452,6 +452,13 @@ p {
   background-size:cover;
   src:
 }
+.gallery-img-20 {
+  background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+  url(img/music-prediction.jpg);
+  background-size:cover;
+  src:
+}
+
 .gallery-info {
 	position: absolute;
 	width: inherit;
